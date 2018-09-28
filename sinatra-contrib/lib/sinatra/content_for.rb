@@ -32,7 +32,7 @@ module Sinatra
   # to yield_content.
   #
   #     # layout.erb
-  #     <%= yield_content :some_key_with_no_content do %>
+  #     <% yield_content :some_key_with_no_content do %>
   #       <chunk of="default html">...</chunk>
   #     <% end %>
   #
